@@ -1,1 +1,6 @@
 /* pages/chat/chat.wxss */
+.userinfo{
+  margin-top:-50px;
+  padding-bottom:20px;
+
+}

@@ -1,4 +1,7 @@
 <view class="container">
+    <view class="userinfo">
+      <text class="userinfo-nickname">{{user}}</text>
+    </view>
     <input type="text" bindinput="bindKeyInput" placeholder="请输入内容"/>
     <button size="default" type="primary" bindtap="sendtap">发送</button >
     <!-- 历史信息 -->

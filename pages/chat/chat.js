@@ -16,7 +16,9 @@ Page({
    * options 为页面跳转带来的参数
    */
   onLoad: function (options) {
-    
+    this.setData({
+      user : options.user
+    })
   },
 
   /**
