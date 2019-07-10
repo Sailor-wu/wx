@@ -27,7 +27,20 @@ Page({
   onReady: function () {
     
   },
+  // 用户输入消息事件
+  bindKeyInput: function(e){
+      this.setData({
+        inputValue : e.detail.value
+      })
+  },
+  // 点击发送按钮事件
+  sendtap: function (e) {
+    var $thia = this;
+    // 如果socket已经连接成功
+    if (socketOpen){
 
+    }
+  },
   /**
    * 生命周期函数--监听页面显示
    */
